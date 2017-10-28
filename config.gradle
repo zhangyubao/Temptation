@@ -1,0 +1,29 @@
+ext {
+    android = [
+            compileSdkVersion        : 26,
+            buildToolsVersion        : "25.0.2",
+            minSdkVersion            : 15,
+            targetSdkVersion         : 22,
+            versionCode              : 1,
+            versionName              : "1.0",
+            applicationId            : "com.zbao.temptation",
+            testInstrumentationRunner: "android.support.test.runner.AndroidJUnitRunner"
+    ]
+
+    dependencies = [
+            "kotlin"              : "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version",
+            "constraint-layout"   : 'com.android.support.constraint:constraint-layout:1.0.2',
+            "butterknife"         : 'com.jakewharton:butterknife:8.8.1',
+            "support-appcompat-v7": 'com.android.support:appcompat-v7:26.1.0',
+            "support-multidex"    : 'com.android.support:multidex:1.0.1',
+            "support-v4"          : 'com.android.support:support-v4:24.1.1',
+            "retrofit2"           : 'com.squareup.retrofit2:retrofit:2.3.0',
+            "baseAdapter"         : 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.33',
+            "arouter"             : 'com.alibaba:arouter-api:1.2.4',
+            "rxjava2"             : 'io.reactivex.rxjava2:rxjava:2.0.1',
+            "rxandroid"           : 'io.reactivex.rxjava2:rxandroid:2.0.1',
+            "magicIndicator"      : 'com.github.hackware1993:MagicIndicator:1.5.0',
+            "refreshLayout"      : 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.3',
+
+    ]
+}
