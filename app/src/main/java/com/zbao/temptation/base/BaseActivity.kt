@@ -2,6 +2,8 @@ package com.zbao.temptation.base
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import butterknife.ButterKnife
+import com.zbao.temptation.R
 
 /**
  *
@@ -13,16 +15,18 @@ abstract class BaseActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-    }
-
-
-    override fun onResume() {
-        super.onResume()
+        initData()
+        if (!initData()) {
+            return
+        }
+        setContentView(getLayout())
+        initView()
     }
 
 
     override fun onDestroy() {
         super.onDestroy()
+        butterknife.Unbinder { }
     }
 
 
@@ -40,6 +44,6 @@ abstract class BaseActivity : AppCompatActivity() {
     /**
      * 数据初始化
      */
-    open abstract fun initData()
+    open abstract fun initData(): Boolean
 
 }

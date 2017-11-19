@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@mipmap/calling_1"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_2"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_3"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_4"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_5"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_6"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_7"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_8"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_9"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_10"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_11"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_12"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_13"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_14"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_15"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_16"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_17"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_18"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_19"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_20"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_21"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_22"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_23"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_24"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_25"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_26"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_27"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_28"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_29"
+        android:duration="150" />
+    <item
+        android:drawable="@mipmap/calling_30"
+        android:duration="150" />
+
+</animation-list>

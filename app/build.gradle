@@ -1,7 +1,6 @@
 apply plugin: 'com.android.application'
 
 apply plugin: 'kotlin-android'
-
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
@@ -45,6 +44,6 @@ dependencies {
     compile rootProject.ext.dependencies["rxandroid"]
     compile rootProject.ext.dependencies["magicIndicator"]
     compile rootProject.ext.dependencies["refreshLayout"]
+    compile rootProject.ext.dependencies["anko"]
     kapt 'com.alibaba:arouter-compiler:1.1.4'
-    kapt 'com.jakewharton:butterknife-compiler:8.8.1'
 }

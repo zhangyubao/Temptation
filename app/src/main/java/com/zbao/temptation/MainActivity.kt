@@ -1,12 +1,19 @@
 package com.zbao.temptation
 
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
+import com.zbao.temptation.base.BaseActivity
 
-class MainActivity : AppCompatActivity() {
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class MainActivity : BaseActivity() {
+    override fun initData(): Boolean {
+        return true
     }
+
+    override fun getLayout(): Int {
+      return R.layout.activity_main
+    }
+
+    override fun initView() {
+
+    }
+
+
 }
