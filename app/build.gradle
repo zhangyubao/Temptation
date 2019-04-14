@@ -32,18 +32,18 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    compile rootProject.ext.dependencies["support-appcompat-v7"]
-    compile rootProject.ext.dependencies["kotlin"]
-    compile rootProject.ext.dependencies["constraint-layout"]
-    compile rootProject.ext.dependencies["butterknife"]
-    compile rootProject.ext.dependencies["support-multidex"]
-    compile rootProject.ext.dependencies["support-v4"]
-    compile rootProject.ext.dependencies["baseAdapter"]
-    compile rootProject.ext.dependencies["arouter"]
-    compile rootProject.ext.dependencies["rxjava2"]
-    compile rootProject.ext.dependencies["rxandroid"]
-    compile rootProject.ext.dependencies["magicIndicator"]
-    compile rootProject.ext.dependencies["refreshLayout"]
-    compile rootProject.ext.dependencies["anko"]
+    implementation rootProject.ext.dependencies["support-appcompat-v7"]
+    implementation rootProject.ext.dependencies["kotlin"]
+    implementation rootProject.ext.dependencies["constraint-layout"]
+    implementation rootProject.ext.dependencies["butterknife"]
+    implementation rootProject.ext.dependencies["support-multidex"]
+    implementation rootProject.ext.dependencies["support-v4"]
+    implementation rootProject.ext.dependencies["baseAdapter"]
+    implementation rootProject.ext.dependencies["arouter"]
+    implementation rootProject.ext.dependencies["rxjava2"]
+    implementation rootProject.ext.dependencies["rxandroid"]
+    implementation rootProject.ext.dependencies["magicIndicator"]
+    implementation rootProject.ext.dependencies["refreshLayout"]
+    implementation rootProject.ext.dependencies["anko"]
     kapt 'com.alibaba:arouter-compiler:1.1.4'
 }
